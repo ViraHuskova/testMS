@@ -1,0 +1,151 @@
+body, h1, h2, h3, p {
+	margin: 0;
+	font-family: Arial;
+}
+
+body.modal-opened {
+	overflow: hidden;
+}
+p {
+	margin-top: 10px;
+}
+nav {
+	background-color: #464547;
+}
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 35px;
+}
+
+.box {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.box img {
+	width: 150px;
+	padding: 20px 0 5px 0;
+}
+
+.program-description {
+	background-color: #fff;
+	background-image: url(https://courses.epam.com/static/images/Placeholder_image.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.program-description .box{
+	padding: 30px 0;
+}
+.program-description p {
+	text-align: justify;
+	font-size: 20px;
+}
+.packages-wrapper {
+	padding: 30px 0;
+}
+.packages-wrapper .box .packages-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+.packages-wrapper .box .packages-item .description {
+	width: 80%;
+}
+.packages-wrapper .box .packages-item .description p {
+	width: 80%;
+}
+
+.btn{
+	width: 20%;
+	background-color: #99c81c;
+	padding: 20px;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+.btn:hover{
+	background-color: #7f993a;
+}
+footer {
+	background-color: #464547;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+.modal-window {
+	display: none;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.modal-content {
+	position: relative;
+	max-width: 90%;
+	margin: 0 auto;
+	top: 10%;
+	background-color: #fff;
+	padding: 30px;
+}
+.close {
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.price {
+	color: red;
+	font-size: 30px;
+	padding: 15px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+ul li {
+	font-size: 14px;
+	padding-top: 10px;
+}
+.popup-footer {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-footer ul {
+	width: 50%;
+}
+.popup-footer .price {
+	width: 30%;
+}
+.popup-footer .btn {
+	width: 20%;
+}
+.selective-module, .additional-module {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.additional-module div {
+	width: 50%;
+}
+.selective-module div {
+	width: 50%;
+	/*padding: 0 10px;*/
+}
+.selective-module div ul li, .additional-module div ul li {
+	padding: 0 20px;
+}
